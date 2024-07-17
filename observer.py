@@ -45,7 +45,7 @@ class ConcreteSubscriber(Subscriber):
     def update(self, message):
         self.state = message
         print(f"{self.name} received message: {message}")
-
+#ohadhklaklhakla
 # Example usage
 if __name__ == "__main__":
     publisher = ConcretePublisher()
